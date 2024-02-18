@@ -9,9 +9,9 @@ else:
 
 message = "Last digit of {} is {}".format(number, l_digit)
 
-if number == 0:
+if l_digit == 0:
     print(message)
-elif number > 5:
+elif l_digit > 5:
     print(message, "and is greater than 5")
 else:
     print(message, "and is less than 6 and not 0")
