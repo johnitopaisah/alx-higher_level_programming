@@ -5,3 +5,4 @@ for i in range(10):
             continue
         else:
             print("{}{}".format(i, j), end='\n' if i == 8 and j == 9 else ', ')
+        
