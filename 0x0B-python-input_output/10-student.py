@@ -7,7 +7,7 @@ class Student:
 
     def __init__(self, first_name, last_name, age):
         """Initialize a new Student.
-        
+
         Args:
             first_name (str): The first name of the student.
             last_name (str): The last name of the student.
@@ -22,7 +22,7 @@ class Student:
         
         If attrs is a list of strings, represents onluy those attributes
         included in the list.
-        
+
         Args:
             attrs (list): (Optional) The attributes to represent.
         """
@@ -30,4 +30,3 @@ class Student:
                 all(type(ele) == str for ele in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         return self.__dict__
-    
