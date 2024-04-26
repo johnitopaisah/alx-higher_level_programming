@@ -17,7 +17,6 @@ To run these JavaScript files, you can execute them using a JavaScript runtime e
 Clone or download this repository to your local machine.
 Open a terminal or command prompt and navigate to the directory containing the JavaScript files.
 Run each file using Node.js by typing node filename.js, replacing filename with the name of the JavaScript file you want to execute.
-For example:
 
 #Copy code
 #node 1-hello_world.js
