@@ -11,6 +11,7 @@ This repository contains a set of warm-up exercises aimed at refreshing and prac
 5-loops.js: Demonstrations of for and while loops for iterating over arrays and performing repetitive tasks.
 6-functions.js: Exercises showcasing the creation and invocation of functions, including function declarations and expressions.
 #Usage
+
 To run these JavaScript files, you can execute them using a JavaScript runtime environment such as Node.js. Follow these steps:
 
 #Install Node.js if you haven't already (https://nodejs.org/).
