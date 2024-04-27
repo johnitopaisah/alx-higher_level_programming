@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/node
 const num = Number(process.argv[2]);
 if (isNaN(num)) {
   console.log('Missing size');
