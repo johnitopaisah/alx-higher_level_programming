@@ -1,4 +1,4 @@
 #!/usr/bin/node
-exports.addMeMayby = function (Number, theFuction) {
-  theFuction(++Number);
+exports.addMeMayby = function (number, theFuction) {
+  theFuction(++number);
 };
